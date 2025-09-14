@@ -1,23 +1,5 @@
-# wap to accept marks of 6 student and dis them in a shorted manner
-
-marks = []
-f1 = input("Enter mark here : ")
-marks.append(f1)
-
-f2 = input("Enter mark here : ")
-marks.append(f2)
-
-f3 = input("Enter mark here : ")
-marks.append(f3)
-
-f4 = input("Enter mark here : ")
-marks.append(f4)
-
-f5 = input("Enter mark here : ")
-marks.append(f5)
-
-f6 = input("Enter mark here : ")
-marks.append(f6)
-marks.sort()
-
-print(marks)
+t = (5, 1, 9, 3)
+print(len(t))     # 4
+print(max(t))     # 9
+print(min(t))     # 1
+print(sum(t))     # 18

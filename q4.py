@@ -1,6 +1,14 @@
-#count the 0 in tuples
+# List → Tuple
+l = [1, 2, 3]
+print(tuple(l))   # (1, 2, 3)
 
-a=(1,5,0,8,0,6,5,0,0,0,67,0,4,0,23,0)
-print(a)
-no = a.count(0)
-print(no)
+# String → Tuple
+s = "abc"
+print(tuple(s))   # ('a', 'b', 'c')
+
+# Tuple → List
+t = (10, 20, 30)
+print(list(t))    # [10, 20, 30]
+
+# Tuple → String
+print(str(t))     # "(10, 20, 30)"
