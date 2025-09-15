@@ -1,14 +1,7 @@
-# List → Tuple
-l = [1, 2, 3]
-print(tuple(l))   # (1, 2, 3)
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
 
-# String → Tuple
-s = "abc"
-print(tuple(s))   # ('a', 'b', 'c')
-
-# Tuple → List
-t = (10, 20, 30)
-print(list(t))    # [10, 20, 30]
-
-# Tuple → String
-print(str(t))     # "(10, 20, 30)"
+print("Union:", A | B)          # {1,2,3,4,5,6}
+print("Intersection:", A & B)   # {3,4}
+print("Difference:", A - B)     # {1,2}
+print("Symmetric Diff:", A ^ B) # {1,2,5,6}

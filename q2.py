@@ -1,5 +1,6 @@
-t = (5, 1, 9, 3)
-print(len(t))     # 4
-print(max(t))     # 9
-print(min(t))     # 1
-print(sum(t))     # 18
+s = {1, 2, 3}
+s.add(4)        # Add a single element
+print(s)
+
+s.update([5, 6, 7])  # Add multiple elements
+print(s)
