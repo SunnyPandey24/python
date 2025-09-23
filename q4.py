@@ -1,7 +1,10 @@
-A = {1, 2, 3, 4}
-B = {3, 4, 5, 6}
+p1 = "Make a lot of money"
+p2 = "Buy now"
+p3 = "Subscribe this"
+p4 = "Click this"
 
-print("Union:", A | B)          # {1,2,3,4,5,6}
-print("Intersection:", A & B)   # {3,4}
-print("Difference:", A - B)     # {1,2}
-print("Symmetric Diff:", A ^ B) # {1,2,5,6}
+message = input("Enter your Message:")
+if(p1 in message or p2 in message or p3 in message  or p4 in message):
+    print("This comment is spam!",message)
+else:
+    print("This comment is not a spam:",message)

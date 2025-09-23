@@ -1,33 +1,17 @@
-#wap to input 8 no. from the user and dis all the unique no (once)
-# Example: Taking multiple numbers from user and storing in a set
+# wap to find the gretest of four number entrred by te user
+a = int(input("Enter the Number 1:-"))
+b = int(input("Enter the Number 2:-"))
+c = int(input("Enter the Number 3:-"))
+d = int(input("Enter the Number 4:-"))
 
-s = set()   # Empty set create किया
+if (a > b and a > c and a > d):
+    print("Number 1 is Greatest")
 
-# Taking input from user and adding to the set
-n = input("Enter number : ")
-s.add(int(n))    # Convert input to int and add to set
+if (b > a and b > c and b > d):
+    print("Number 2 is Greatest")
 
-n = input("Enter number : ")
-s.add(int(n))
+if (c > b and c > a and c > d):
+    print("Number 3 is Greatest")
 
-n = input("Enter number : ")
-s.add(int(n))
-
-n = input("Enter number : ")
-s.add(int(n))
-
-n = input("Enter number : ")
-s.add(int(n))
-
-n = input("Enter number : ")
-s.add(int(n))
-
-n = input("Enter number : ")
-s.add(int(n))
-
-# Printing the final set
-print(s)   
-
-# Example Run:
-# Input: 2, 4, 6, 4, 9, 2, 10
-# Output: {2, 4, 6, 9, 10}
+else:  # small correction: should check against c also
+    print("Number 4 is Greatest")

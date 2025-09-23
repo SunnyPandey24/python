@@ -1,2 +1,7 @@
-squares = {x*x for x in range(1, 6)}
-print(squares)   # {1, 4, 9, 16, 25}
+l = ["Harry","Divya","sohan","Rohan","Sunny"]
+name = input("Enter ur name:")
+
+if(name in l):
+    print("Ur name is in list",name)
+else:
+    print("Ur name is not in list",name)
